@@ -16,6 +16,8 @@ Link: [https://flight-price-prediction-api.herokuapp.com/](https://flight-price-
 
 [![](https://github.com/docum5/Flight-Price-Prediction/blob/main/demo.PNG?raw=true)](https://flight-price-prediction-api.herokuapp.com/)
 
+[![](https://github.com/docum5/Flight-Price-Prediction/blob/main/demo2.PNG?raw=true)](https://flight-price-prediction-api.herokuapp.com/)
+
 
 
 ## Overview
@@ -33,7 +35,7 @@ pip install -r requirements.txt
 ## Deployement on Heroku
 Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.
 
-[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
+[![](https://github.com/docum5/Flight-Price-Prediction/blob/main/new%20app.PNG?raw=true)](https://heroku.com)
 
 Our next step would be to follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
 
