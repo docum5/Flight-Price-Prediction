@@ -62,7 +62,7 @@ def predict():
             Multiple_carriers_Premium_economy = 0
             Jet_Airways_Business = 0
             Vistara_Premium_economy = 0
-            Trujet = 0 
+            Trujet = 0
 
         elif (airline=='IndiGo'):
             Jet_Airways = 0
@@ -75,7 +75,7 @@ def predict():
             Multiple_carriers_Premium_economy = 0
             Jet_Airways_Business = 0
             Vistara_Premium_economy = 0
-            Trujet = 0 
+            Trujet = 0
 
         elif (airline=='Air India'):
             Jet_Airways = 0
@@ -88,8 +88,8 @@ def predict():
             Multiple_carriers_Premium_economy = 0
             Jet_Airways_Business = 0
             Vistara_Premium_economy = 0
-            Trujet = 0 
-            
+            Trujet = 0
+
         elif (airline=='Multiple carriers'):
             Jet_Airways = 0
             IndiGo = 0
@@ -101,8 +101,8 @@ def predict():
             Multiple_carriers_Premium_economy = 0
             Jet_Airways_Business = 0
             Vistara_Premium_economy = 0
-            Trujet = 0 
-            
+            Trujet = 0
+
         elif (airline=='SpiceJet'):
             Jet_Airways = 0
             IndiGo = 0
@@ -114,8 +114,8 @@ def predict():
             Multiple_carriers_Premium_economy = 0
             Jet_Airways_Business = 0
             Vistara_Premium_economy = 0
-            Trujet = 0 
-            
+            Trujet = 0
+
         elif (airline=='Vistara'):
             Jet_Airways = 0
             IndiGo = 0
@@ -180,7 +180,7 @@ def predict():
             Jet_Airways_Business = 0
             Vistara_Premium_economy = 1
             Trujet = 0
-            
+
         elif (airline=='Trujet'):
             Jet_Airways = 0
             IndiGo = 0
@@ -266,7 +266,7 @@ def predict():
             d_New_Delhi = 0
             d_Hyderabad = 0
             d_Kolkata = 0
-        
+
         elif (Source == 'Delhi'):
             d_Cochin = 0
             d_Delhi = 1
@@ -309,7 +309,7 @@ def predict():
         #     d_Hyderabad,
         #     d_Kolkata
         # )
-        
+
 
     #     ['Total_Stops', 'Journey_day', 'Journey_month', 'Dep_hour',
     #    'Dep_min', 'Arrival_hour', 'Arrival_min', 'Duration_hours',
@@ -321,7 +321,7 @@ def predict():
     #    'Source_Chennai', 'Source_Delhi', 'Source_Kolkata', 'Source_Mumbai',
     #    'Destination_Cochin', 'Destination_Delhi', 'Destination_Hyderabad',
     #    'Destination_Kolkata', 'Destination_New Delhi']
-        
+
         prediction=model.predict([[
             Total_stops,
             Journey_day,
@@ -356,7 +356,7 @@ def predict():
 
         output=round(prediction[0],2)
 
-        return render_template('home.html',prediction_text="Your Flight price is Rs. {}".format(output))
+        return render_template('home.html',prediction_text="Your Flight price is IDR: {}K".format(output))
 
 
     return render_template("home.html")

@@ -1,16 +1,66 @@
-body {
-    background-color: #e1f4f3;
+
+body{
+    background-image:url("https://images.unsplash.com/photo-1517400508447-f8dd518b86db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    opacity:0.5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
     text-align: center;
 }
 
-.navbar {
-    background-color: #333333;
+/* body {
+  background-color: yellow;
+} */
+.form-label {
+
+    color:black;
+
+    font-weight: 900;
+
+}
+#judul {
+
+    color:black;
+
+    font-weight: 900;
+
 }
 
-a {
-    color: #f1f9f9;
+.fa {
+  color:black;
+weight: 900px;
+
+
+}
+.card-text {
+font-weight: bolder;
+    color:
+    black
+    ;
 }
 
-a:hover {
-    color: #f0f0f0;
-  }
+div .card-body {
+
+  border: solid;
+
+}
+#tombol {
+    font-weight: bold;
+    border-radius: 100px;
+    border: solid;
+}
+
+p {
+  font-weight: bold;
+    color:white;
+}
+
+h2 {
+    font-weight: bold;
+    color:white;
+}
