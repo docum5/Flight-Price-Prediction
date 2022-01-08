@@ -1,6 +1,7 @@
 # Flight Fare Prediction: 
 
 ## Table of Content
+  * [The Problem](#the-problem)
   * [Demo](#demo)
   * [Overview](#overview)
   * [Motivation](#motivation)
@@ -9,6 +10,10 @@
   * [Directory Tree](#directory-tree)
 
 
+## The Problem
+Airline companies use complex algorithms to calculate flight prices given various conditions present at that particular time. These methods take financial, marketing, and various social factors into account to predict flight prices.
+
+Nowadays, the number of people using flights has increased significantly. It is difficult for airlines to maintain prices since prices change dynamically due to different conditions. That’s why we will try to use machine learning to solve this problem. This can help airlines by predicting what prices they can maintain. It can also help customers to predict future flight prices and plan their journey accordingly.
 
 ## Demo
 Link: [https://flight-price-prediction-api.herokuapp.com/](https://flight-price-predict-api.herokuapp.com/predict)
